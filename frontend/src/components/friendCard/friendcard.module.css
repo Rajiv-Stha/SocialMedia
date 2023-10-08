@@ -1,0 +1,16 @@
+.friendCard{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.userImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.username{
+    font-size: 13px;
+    font-weight: 500;
+}

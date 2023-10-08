@@ -1,0 +1,38 @@
+.friendlist_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.inputWrapper{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border: 0.8px solid grey;
+}
+.searchIcon{
+    font-size: 20px;
+    position: absolute;
+    left: 6px;
+    color: grey;
+}
+.searchInput{
+    border: none;
+    outline: none;
+    padding: 7px 2rem;
+    width: 100%;
+    font-size: 12px;
+
+}
+.friendCard_container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+.friendList_header{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

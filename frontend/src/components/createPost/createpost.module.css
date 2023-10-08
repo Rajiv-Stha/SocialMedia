@@ -1,0 +1,40 @@
+.createPost_Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.createPost_Wrapper h2{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.post_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+}
+.text_post{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.text_post input{
+    height: 45px;
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+}
+.attachmentIcon{
+    cursor: pointer;
+}
