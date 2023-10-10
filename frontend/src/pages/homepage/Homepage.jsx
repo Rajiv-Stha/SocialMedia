@@ -10,12 +10,15 @@ const Homepage = () => {
   return (
     <div className={styles.homepage_container}>
       <Navbar/>
+      <hr/>
       <div className={styles.hero_section}>
       <div className={styles.sidebar_container}>
         <Sidebar/>
       </div>
       <div className={styles.hero_mainBox}>
         <CreatePost/>
+        <PostCard/>
+        <PostCard/>
         <PostCard/>
       </div>
       <div className={styles.friendList_Box}>

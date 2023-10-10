@@ -4,6 +4,8 @@ import {AiOutlineHome} from "react-icons/ai"
 import {FaUserFriends} from "react-icons/fa"
 import {CgProfile} from "react-icons/cg"
 import {AiOutlineSetting} from "react-icons/ai"
+import Profile from '../../pages/profile/Profile'
+import {Link} from "react-router-dom"
 
 const Sidebar = () => {
   return (
@@ -24,10 +26,14 @@ const Sidebar = () => {
         <FaUserFriends className={styles.btn_icons}/>
           <p>Friend</p>
         </button>
+        
+
+        <Link to={"/profile"}>
         <button>
         <CgProfile className={styles.btn_icons}/>
           <p>Profile</p>
         </button>
+        </Link>
         <button>
         <AiOutlineSetting className={styles.btn_icons}/>
           <p>Settings</p>

@@ -1,16 +1,19 @@
+/* .homepage_container{
+    background-color: var(--primary_color);
+} */
 .hero_section{
     display: flex;
 }
 .sidebar_container{
     flex: 3;
-    background-color: rgb(225, 225, 225);
     padding: 1rem 0;
+    background-color: var(--primary_color);
 }
 .hero_mainBox{
     display: flex;
     flex-direction: column;
     flex: 6;
-    background-color: rgb(200, 200, 200);
+    background-color: var(--secondary_color);
     padding: 1rem;
     gap: 1rem ;
 }
