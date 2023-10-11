@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./createpost.module.css"
-import {GrAttachment} from "react-icons/gr"
+import {ImAttachment} from "react-icons/im"
 
 const CreatePost = () => {
   return (
@@ -12,7 +12,7 @@ const CreatePost = () => {
             <img src='https://previews.123rf.com/images/meysye/meysye1904/meysye190400002/121250278-female-silhoutte-avatar-default-avatar-profile-picture-photo-placeholder.jpg' alt='profile' className={styles.avatar}/>
             <input type='text' placeholder="How's your day going?"/>
         </div>
-        <GrAttachment className={styles.attachmentIcon}/>
+        <ImAttachment className={styles.attachmentIcon}/>
       </div>
     </div>
   )

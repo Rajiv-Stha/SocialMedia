@@ -9,7 +9,8 @@
     border-radius: 5px;
     overflow: hidden;
     position: relative;
-    border: 0.8px solid grey;
+    border-radius: 1.4rem;
+    /* border: 0.8px solid grey; */
 }
 .searchIcon{
     font-size: 20px;
@@ -20,9 +21,10 @@
 .searchInput{
     border: none;
     outline: none;
-    padding: 7px 2rem;
+    padding: 10px 2rem;
     width: 100%;
     font-size: 12px;
+    background-color: var(--secondary_color);
 
 }
 .friendCard_container{
@@ -35,4 +37,5 @@
     font-size: 17px;
     font-weight: 600;
     letter-spacing: 1px;
+    color: rgba(208, 208, 208, 0.711);
 }

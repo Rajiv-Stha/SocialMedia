@@ -2,15 +2,16 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: white;
+    background-color: var(--secondary_color);
     padding: 1rem;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
     border-radius: 10px;
 }
 .createPost_Wrapper h2{
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
+    color: rgb(178, 177, 177);
 }
 .post_content{
     display: flex;
@@ -35,7 +36,10 @@
     border: none;
     outline: none;
     font-size: 13px;
+    background-color: var(--secondary_color);
+    border-radius: 50px;
 }
 .attachmentIcon{
     cursor: pointer;
+    color: rgba(197, 197, 197, 0.754);
 }

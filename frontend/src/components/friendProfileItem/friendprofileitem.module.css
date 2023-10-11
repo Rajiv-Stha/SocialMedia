@@ -1,0 +1,17 @@
+.profileFriend_imageBox{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: flex-start;
+    
+}
+.profileFriend_imageBox p{
+    color: whitesmoke;
+    font-size: 13px;
+}
+.friendImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}

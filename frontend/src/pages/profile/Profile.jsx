@@ -2,11 +2,14 @@ import React from 'react'
 import styles from "./profile.module.css"
 import Navbar from '../../components/navbar/Navbar'
 import {MdEdit} from "react-icons/md"
+import ProfileFriendBox from '../../components/profileFriend_box/ProfileFriendBox'
+import ProfilePostBox from '../../components/profilePostBox/ProfilePostBox'
 
 const Profile = () => {
   return (
     <>
 <Navbar/>
+<hr/>
     <div className={styles.profile_container}> 
     <div className={styles.profileInfo_content}>
       <div className={styles.coverImg_wrapper}>
@@ -27,6 +30,15 @@ const Profile = () => {
             <p>Edit Profile</p>
           </button>
         </div>
+      </div>
+    </div>
+    <div className={styles.profile_bottom_container}>
+      <div className={styles.friend_section}>
+        <ProfileFriendBox/>
+      </div>
+      <div className={styles.post_section}>
+        <ProfilePostBox/>
+        
       </div>
     </div>
     </div>

@@ -80,3 +80,18 @@
     letter-spacing: 1px;
     font-size: 13px;
 }
+.profile_bottom_container{
+    background-color: rgb(25,25,27);
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 5rem;
+}
+.friend_section{
+    flex: 4.7;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.post_section{
+    flex: 7.3;
+}
