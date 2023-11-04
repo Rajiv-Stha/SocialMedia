@@ -38,6 +38,9 @@
     font-size: 13px;
     background-color: var(--secondary_color);
     border-radius: 50px;
+    color: rgba(197, 197, 197, 0.754);
+
+
 }
 .attachmentIcon{
     cursor: pointer;

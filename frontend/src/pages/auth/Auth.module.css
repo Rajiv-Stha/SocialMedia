@@ -1,0 +1,57 @@
+.auth_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+.auth_innerContent{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30%;
+}
+.logo_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.login_form input, .signup_form input{
+    border: 1px solid var(--primary_color);
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.login_btn{
+    border: none;
+    outline: none;
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 10px 0;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+/* signup */
+.signup_form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.password_box{
+    display: flex;
+    gap: 3px;
+}
+.password_box input{
+    width: 100%;
+}

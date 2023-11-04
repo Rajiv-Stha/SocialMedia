@@ -26,5 +26,6 @@ app.use(session({
 }))
 require("./utils/db")()
 app.use("/api/user",require("./routes/userRoute"))
+app.use("/api/post",require("./routes/postRoute"))
 app.use(require("./middlewares/error"))
 app.listen(8000,()=>console.log("server listening on port 8000"))

@@ -19,4 +19,26 @@ try {
     next(error)
 }
 }
-module.exports = {getUser,createuser}
+
+const loginUser = async(req, res, next) => {
+    try {
+        const {email:userEmail, password:userPassword} = req.body
+        if(!userEmail || !userPassword){
+            return res.status(403).json({message:"fill all the creadentials"})
+        }
+        const loggedInUser = await userModel.findOne({email:userEmail})
+        console.log(loggedInUser,"loggedInUser")
+        if(!loggedInUser){
+            return res.status(403).json({message:"email is not registered"})
+        } 
+        if(loggedInUser.password !== userPassword){
+            return res.status(403).json({message:"invalid credentials"})
+        }
+        const {password, ...other} = loggedInUser._doc
+        return res.status(200).json({message:other})
+    } catch (error) {
+        next(error)
+    }
+}
+
+module.exports = {getUser,createuser, loginUser}
